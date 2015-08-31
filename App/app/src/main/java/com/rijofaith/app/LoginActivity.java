@@ -3,16 +3,6 @@ package com.rijofaith.app;
 /**
  * Created by rijo on 31-Aug-15.
  */
-import com.rijofaith.app.app.AppConfig;
-import com.rijofaith.app.app.AppController;
-import com.rijofaith.app.helper.SessionManager;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -27,6 +17,15 @@ import com.android.volley.Request.Method;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.rijofaith.app.app.AppConfig;
+import com.rijofaith.app.app.AppController;
+import com.rijofaith.app.helper.SessionManager;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class LoginActivity extends Activity {
     // LogCat tag
@@ -108,7 +107,7 @@ public class LoginActivity extends Activity {
         showDialog();
 
         StringRequest strReq = new StringRequest(Method.POST,
-                AppConfig.URL_REGISTER, new Response.Listener<String>() {
+                AppConfig.URL_LOGIN, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String response) {

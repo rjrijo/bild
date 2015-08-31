@@ -5,8 +5,8 @@ package com.rijofaith.app.app;
  */
 public class AppConfig {
     // Server user login url
-    public static String URL_LOGIN = "http://thecapitalcitychurch.16mb.com/";
+    public static String URL_LOGIN = "https://thecapitalcitychurch.16mb.com/index.php";
 
     // Server user register url
-    public static String URL_REGISTER = "http://thecapitalcitychurch.16mb.com/";
+    public static String URL_REGISTER = "https://thecapitalcitychurch.16mb.com/index.php";
 }

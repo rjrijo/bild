@@ -11,5 +11,11 @@
     <string name="btn_logout">LOGOUT</string>
     <string name="name">Fullname</string>
     <string name="action_settings">Setting</string>
+    <string name="btn_corhort">Corhort</string>
+    <string name="btn_trainees">Trainees</string>
+    <string name="btn_data_entry_status">Data Entry Status</string>
+    <string name="btn_training_status">Training Status</string>
+    <string name="lbl_name1">Church Based Theological Education</string>
+    <string name="lbl_name2">Database</string>
 
 </resources>
