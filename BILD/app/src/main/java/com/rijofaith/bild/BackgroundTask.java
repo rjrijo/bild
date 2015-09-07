@@ -2,6 +2,7 @@ package com.rijofaith.bild;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
@@ -23,11 +24,6 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
     BackgroundTask(Context ctx)
     {
         this.ctx =ctx;
-    }
-    @Override
-    protected void onPreExecute() {
-        alertDialog = new AlertDialog.Builder(ctx).create();
-        alertDialog.setTitle("Login Information....");
     }
 
     @Override
@@ -123,7 +119,8 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
             Toast.makeText(ctx, result, Toast.LENGTH_LONG).show();
         }
         else
-        {
+        {   Intent i = new Intent(ctx,Main2Activity.class);
+            ctx.startActivity(i);
             alertDialog.setMessage(result);
             alertDialog.show();
         }
