@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Bild</string>
-    <string name="hint_email">Email</string>
+    <string name="hint_userid">User Id</string>
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
     <string name="btn_login">LOGIN</string>
@@ -11,7 +11,7 @@
     <string name="btn_logout">LOGOUT</string>
     <string name="name">Fullname</string>
     <string name="action_settings">Setting</string>
-    <string name="btn_corhort">Corhort</string>
+    <string name="btn_cohort">Cohort</string>
     <string name="btn_trainees">Trainees</string>
     <string name="btn_data_entry_status">Data Entry Status</string>
     <string name="btn_training_status">Training Status</string>

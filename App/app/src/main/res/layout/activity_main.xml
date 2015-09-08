@@ -15,7 +15,7 @@
         android:id="@+id/linearLayout">
 
         <TextView
-            android:id="@+id/email"
+            android:id="@+id/userid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="13dp" />
@@ -65,7 +65,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@color/btn_logut_bg"
-        android:text="@string/btn_corhort"
+        android:text="@string/btn_cohort"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="15dp"
