@@ -11,11 +11,21 @@
     <string name="btn_logout">LOGOUT</string>
     <string name="name">Fullname</string>
     <string name="action_settings">Setting</string>
-    <string name="btn_cohort">Cohort</string>
+    <string name="btn_cohort">Cohorts</string>
     <string name="btn_trainees">Trainees</string>
     <string name="btn_data_entry_status">Data Entry Status</string>
     <string name="btn_training_status">Training Status</string>
     <string name="lbl_name1">Church Based Theological Education</string>
     <string name="lbl_name2">Database</string>
+    <string name="title_activity_cohorts">Cohorts</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_trainees">Trainees</string>
+    <string name="title_activity_data_entry_status">DataEntryStatus</string>
+    <string name="title_activity_training_status">TrainingStatus</string>
+    <string name="btn_enter_edit_trainees_details">Enter/Edit Trainees Details</string>
+    <string name="btn_trainees_list">Trainees List</string>
+    <string name="title_activity_enter_edit_trainees_details">EnterEditTraineesDetails</string>
+    <string name="title_activity_trainees_list">TraineesList</string>
 
 </resources>

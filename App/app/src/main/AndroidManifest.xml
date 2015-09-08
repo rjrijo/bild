@@ -23,13 +23,61 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTop">
-        <intent-filter>
-            <action android:name="com.rijofaith.App.MainActivity" />
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="com.rijofaith.App.MainActivity" />
 
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cohorts"
+            android:label="@string/title_activity_cohorts"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Trainees"
+            android:label="@string/title_activity_trainees"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DataEntryStatus"
+            android:label="@string/title_activity_data_entry_status"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TrainingStatus"
+            android:label="@string/title_activity_training_status"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EnterEditTraineesDetails"
+            android:label="@string/title_activity_enter_edit_trainees_details"
+            android:parentActivityName=".Trainees" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.Trainees" />
+        </activity>
+        <activity
+            android:name=".TraineesList"
+            android:label="@string/title_activity_trainees_list"
+            android:parentActivityName=".Trainees" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.Trainees" />
+        </activity>
     </application>
 
 </manifest>

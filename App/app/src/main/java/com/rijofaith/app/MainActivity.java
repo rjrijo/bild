@@ -1,7 +1,9 @@
 package com.rijofaith.app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -20,13 +22,24 @@ public class MainActivity extends Activity {
         txtEmail = (TextView) findViewById(R.id.userid);
         btnLogout = (Button) findViewById(R.id.btnLogout);
 
-
-
+    }
+    public void cohorts(View view)
+    {
+        startActivity(new Intent(this, Cohorts.class));
     }
 
-    /**
-     * Logging out the user. Will set isLoggedIn flag to false in shared
-     * preferences Clears the user data from sqlite users table
-     * */
+    public void trainees(View view)
+    {
+        startActivity(new Intent(this, Trainees.class));
+    }
 
+    public void data_entry_status(View view)
+    {
+        startActivity(new Intent(this, DataEntryStatus.class));
+    }
+
+    public void training_status(View view)
+    {
+        startActivity(new Intent(this, TrainingStatus.class));
+    }
 }
