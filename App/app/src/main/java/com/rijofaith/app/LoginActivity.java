@@ -26,11 +26,7 @@ public class LoginActivity extends Activity {
 
     }
 
-    public void userReg(View view)
-    {
 
-
-    }
 
     public void userLogin(View view)
     {

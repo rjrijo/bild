@@ -42,4 +42,11 @@ public class MainActivity extends Activity {
     {
         startActivity(new Intent(this, TrainingStatus.class));
     }
+
+    public void logout(View view)
+    {
+        startActivity(new Intent("com.rijofaith.App.LoginActivity"));
+        finish();
+    }
 }
+

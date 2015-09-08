@@ -27,6 +27,12 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
     }
 
     @Override
+    protected void onPreExecute() {
+        alertDialog = new AlertDialog.Builder(ctx).create();
+        alertDialog.setTitle("Login Information....");
+    }
+
+    @Override
     protected String doInBackground(String... params) {
         String reg_url = "http://thecapitalcitychurch.16mb.com/new/register.php";
         String login_url = "http://thecapitalcitychurch.16mb.com/new/login.php";
@@ -114,13 +120,20 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
 
     @Override
     protected void onPostExecute(String result) {
-        if(result.equals("Registration Success..."))
+        if(result == null)
+        {
+            System.exit(0);
+        }
+        else if(result.equals("Registration Success..."))
         {
             Toast.makeText(ctx, result, Toast.LENGTH_LONG).show();
         }
-        else
-        {   Intent i = new Intent(ctx,MainActivity.class);
+        else if(result.contains("Login Success")) // msg you get from success like "Login Success"
+        {
+            Intent i = new Intent(ctx,MainActivity.class);
             ctx.startActivity(i);
+        }
+        else {
             alertDialog.setMessage(result);
             alertDialog.show();
         }
