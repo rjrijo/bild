@@ -1,11 +1,11 @@
 package com.rijofaith.app;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class DataEntryStatus extends AppCompatActivity {
+public class DataEntryStatus extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -19,34 +19,6 @@
     android:layout_alignParentStart="true"
     android:onClick="trainees" />
 
-    <Button
-        android:id="@+id/btnEnter_edit_trainees_details"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/btn_logut_bg"
-        android:text="@string/btn_enter_edit_trainees_details"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        android:onClick="enter_edit_trainees_details"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:id="@+id/btnTrainees_list"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/btn_logut_bg"
-        android:text="@string/btn_trainees_list"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="15dp"
-        android:onClick="trainees_list"
-        android:layout_below="@+id/btnEnter_edit_trainees_details"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
 
     <Button
         android:id="@+id/btnLogout"
@@ -61,5 +33,44 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="logout" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+            android:id="@+id/btnEnter_edit_trainees_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_enter_edit_trainees_details"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:onClick="enter_edit_trainees_details"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/btnTrainees_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btn_logut_bg"
+            android:text="@string/btn_trainees_list"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:onClick="trainees_list"
+            android:layout_below="@+id/btnEnter_edit_trainees_details"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
 
 </RelativeLayout>

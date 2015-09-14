@@ -29,7 +29,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
     @Override
     protected void onPreExecute() {
         alertDialog = new AlertDialog.Builder(ctx).create();
-        alertDialog.setTitle("Login Information....");
+
     }
 
     @Override
@@ -122,7 +122,9 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
     protected void onPostExecute(String result) {
         if(result == null)
         {
-            System.exit(0);
+            alertDialog.setMessage("No working internet connection");
+            alertDialog.setTitle("Error....");
+            alertDialog.show();
         }
         else if(result.equals("Registration Success..."))
         {
@@ -135,6 +137,7 @@ public class BackgroundTask extends AsyncTask<String,Void,String> {
         }
         else {
             alertDialog.setMessage(result);
+            alertDialog.setTitle("Login Information....");
             alertDialog.show();
         }
 

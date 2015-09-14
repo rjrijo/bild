@@ -1,11 +1,11 @@
 package com.rijofaith.app;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class EnterEditTraineesDetails extends AppCompatActivity {
+public class EnterEditTraineesDetails extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

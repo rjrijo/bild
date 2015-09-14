@@ -1,13 +1,12 @@
 package com.rijofaith.app;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Trainees extends AppCompatActivity {
+public class Trainees extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,12 +14,6 @@ public class Trainees extends AppCompatActivity {
         setContentView(R.layout.activity_trainees);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_trainees, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
