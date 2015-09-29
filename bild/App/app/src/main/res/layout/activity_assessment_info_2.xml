@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_login">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_login2">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/report_teaching_practicum_first_principle_1"
+                        android:id="@+id/textViewReport_teaching_practicum_first_principle_1"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="3dp"
+                        android:textSize="19dp"
+                        android:layout_marginBottom="5dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:showDividers="middle"
+                android:layout_marginBottom="3dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/center_of_training"
+                        android:id="@+id/textViewCenter_of_training"
+                        android:layout_column="0"
+                        android:textColor="@color/white"/>
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginBottom="2dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText25"
+                        android:layout_column="1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/no_of_book_finished"
+                        android:id="@+id/textViewNo_of_book_finished"
+                        android:layout_column="0"
+                        android:textColor="@color/white"/>
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:background="@color/white"
+                        android:layout_marginBottom="2dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText26"
+                        android:layout_column="1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/no_of_students"
+                        android:id="@+id/textViewNo_of_students"
+                        android:layout_column="0"
+                        android:textColor="@color/white"/>
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginBottom="2dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText27"
+                        android:layout_column="1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/were_they_certified"
+                        android:id="@+id/textView4"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_yes"
+                            android:id="@+id/radioButton" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_no"
+                            android:id="@+id/radioButton2" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/what_did_they_learn"
+                        android:id="@+id/textViewWhat_did_they_learn"
+                        android:layout_column="0"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="3dp" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginBottom="3dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText28"
+                        android:layout_column="1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/what_did_learn_from_teaching_fp"
+                        android:id="@+id/textViewWhat_did_learn_from_teaching_fp"
+                        android:layout_column="0"
+                        android:textColor="@color/white"/>
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginBottom="2dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText29"
+                        android:layout_column="1" />
+                </TableRow>
+
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_login2"
+                android:layout_marginBottom="3dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/attachments"
+                        android:id="@+id/textView6"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="3dp"
+                        android:textSize="19dp"
+                        android:layout_marginBottom="5dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:showDividers="middle"
+                android:layout_marginBottom="3dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testimony_from_a_participant_of_teaching_practicum"
+                        android:id="@+id/textViewTestimony_from_a_participant_of_teaching_practicum"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_yes"
+                            android:id="@+id/radioButtonAttachment_Testimony_from_a_participant_of_teaching_practicum_yes" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_no"
+                            android:id="@+id/radioButtonAttachment_Testimony_from_a_participant_of_teaching_practicum_no" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/testmony_from_an_ObserverTrainer_of_teaching_practicum"
+                        android:id="@+id/textViewTestmony_from_an_ObserverTrainer_of_teaching_practicum"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_yes"
+                            android:id="@+id/radioButtonAttachment_Testmony_from_an_ObserverTrainer_of_teaching_practicum_yes" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_no"
+                            android:id="@+id/radioButtonAttachment_Testmony_from_an_ObserverTrainer_of_teaching_practicum_no" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/students_competency_assessments"
+                        android:id="@+id/textViewStudents_competency_assessments"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_yes"
+                            android:id="@+id/radioButtonAttachment_Students_competency_assessments_yes" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_no"
+                            android:id="@+id/radioButtonAttachment_Students_competency_assessments_no" />
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_login2"
+                android:layout_marginBottom="3dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/personal_development_assessment"
+                        android:id="@+id/textViewPersonal_development_assessment"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="3dp"
+                        android:textSize="19dp"
+                        android:layout_marginBottom="5dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:showDividers="middle"
+                android:layout_marginBottom="3dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/assessment"
+                        android:id="@+id/textViewAssessment"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinner15" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/complete"
+                        android:id="@+id/textViewComplete"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_yes"
+                            android:id="@+id/radioButtonComplete_yes" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_no"
+                            android:id="@+id/radioButtonComplete_no" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/date1"
+                        android:id="@+id/textViewDate1"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginBottom="2dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText32"
+                        android:layout_column="1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/date2"
+                        android:id="@+id/textViewDate2"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/date3"
+                        android:id="@+id/textViewDate3"
+                        android:layout_column="0"
+                        android:textColor="@color/white"
+                        android:layout_marginBottom="3dp" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginBottom="3dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText33"
+                        android:layout_column="1" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/attachments"
+                        android:id="@+id/textViewAttachments"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <EditText
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_marginBottom="2dp"
+                        android:padding="2dp"
+                        android:singleLine="true"
+                        android:id="@+id/editText34"
+                        android:layout_column="1" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_login2"
+                android:layout_marginBottom="3dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/personal_development_plan"
+                        android:id="@+id/textViewPersonal_development_plan"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="3dp"
+                        android:textSize="19dp"
+                        android:layout_marginBottom="5dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:showDividers="middle"
+                android:layout_marginBottom="3dp" >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bg_login" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/life_to_the_end"
+                        android:id="@+id/textViewLife_to_the_end"
+                        android:layout_column="0"
+                        android:textColor="@color/white" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_yes"
+                            android:id="@+id/radioButtonLife_to_the_end_yes" />
+
+                        <RadioButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/rd_btn_no"
+                            android:id="@+id/radioButtonLife_to_the_end_no" />
+                    </LinearLayout>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
