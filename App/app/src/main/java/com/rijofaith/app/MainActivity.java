@@ -1,6 +1,8 @@
 package com.rijofaith.app;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -45,8 +47,39 @@ public class MainActivity extends Activity {
 
     public void logout(View view)
     {
-        startActivity(new Intent("com.rijofaith.App.LoginActivity"));
-        finish();
+        backButtonHandler();
     }
+
+    public void onBackPressed() {
+        //Display alert message when back button has been pressed
+        backButtonHandler();
+        return;
+    }
+
+    public void backButtonHandler() {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
+        // Setting Dialog Title
+        alertDialog.setTitle("Logout?");
+        // Setting Dialog Message
+        alertDialog.setMessage("Are you sure you want to logout?");
+        // Setting Positive "Yes" Button
+        alertDialog.setPositiveButton("YES",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
+                });
+        // Setting Negative "NO" Button
+        alertDialog.setNegativeButton("NO",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // Write your code here to invoke NO event
+                        dialog.cancel();
+                    }
+                });
+        // Showing Alert Message
+        alertDialog.show();
+    }
+
 }
 

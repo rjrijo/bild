@@ -30,13 +30,26 @@ public class Trainees extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void enter_edit_trainees_details(View view)
+    public void enter_trainees_details(View view)
     {
-        startActivity(new Intent(this, EnterEditTraineesDetails.class));
+        startActivity(new Intent(this, EnterTraineesDetails.class));
+    }
+
+    public void edit_trainees_details(View view)
+    {
+        startActivity(new Intent(this, EditTraineesDetails.class));
     }
 
     public void trainees_list(View view)
     {
         startActivity(new Intent(this, TraineesList.class));
+    }
+
+    public void back(View view){
+        onBackPressed();
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }

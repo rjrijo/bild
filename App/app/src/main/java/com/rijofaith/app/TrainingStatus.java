@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class TrainingStatus extends Activity {
 
@@ -33,5 +34,13 @@ public class TrainingStatus extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void back(View view){
+        onBackPressed();
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }

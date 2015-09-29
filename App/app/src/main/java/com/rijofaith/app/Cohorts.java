@@ -291,4 +291,11 @@ public class Cohorts extends Activity {
                     LayoutParams.WRAP_CONTENT));
         }
     }
+    public void back(View view){
+        onBackPressed();
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }
