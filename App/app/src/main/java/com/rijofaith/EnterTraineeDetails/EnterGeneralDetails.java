@@ -89,7 +89,7 @@ public class EnterGeneralDetails extends Fragment {
                 for(int i=0;i<jArray.length();i++){
                     JSONObject jsonObject=jArray.getJSONObject(i);
                     // add interviewee name to arraylist
-                    list.add(jsonObject.getString("iname"));
+                    list.add(jsonObject.getString("Cohort_Name"));
                 }
             }
             catch(JSONException e){
