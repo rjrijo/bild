@@ -31,8 +31,8 @@ import java.util.ArrayList;
  * Created by rijo on 16-Sep-15.
  */
 public class EnterGeneralDetails extends ActionBarActivity {
-    ArrayList<String> listItems = new ArrayList<>();
-    ArrayAdapter<String> adapter;
+    public static ArrayList<String> listItems = new ArrayList<>();
+    public static ArrayAdapter<String> adapter;
     Spinner sp;
 
     public void onCreate(Bundle savedInstanceState) {
@@ -40,7 +40,7 @@ public class EnterGeneralDetails extends ActionBarActivity {
         setContentView(R.layout.activity_general_details);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new PlaceholderFragment())
+                    .add(R.id.action_bar_container, new PlaceholderFragment())
                     .commit();
         }
 
@@ -49,14 +49,12 @@ public class EnterGeneralDetails extends ActionBarActivity {
 
     }
 
-    protected void onPostExecute(Void result) {
-        listItems.addAll(list);
-        adapter.notifyDataSetChanged();
-    }
+
 
     public static class PlaceholderFragment extends Fragment {
 
         Spinner sp;
+        ArrayList<String> listItems = new ArrayList<>();
 
         public PlaceholderFragment() {
         }
@@ -65,9 +63,11 @@ public class EnterGeneralDetails extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
             //Inflate the layout for this fragment
 
-            View view = inflater.inflate(R.layout.activity_general_details, container, false);
+            View view = inflater.inflate(R.layout.activity_general_details, container, true);
 
             sp = (Spinner) view.findViewById(R.id.spinner);
+            return view;
+        }
 
         public void onStart() {
             super.onStart();
@@ -81,6 +81,10 @@ public class EnterGeneralDetails extends ActionBarActivity {
             protected void onPreExecute() {
                 super.onPreExecute();
                 list = new ArrayList<>();
+            }
+            protected void onPostExecute(Void result) {
+                listItems.addAll(list);
+                adapter.notifyDataSetChanged();
             }
 
             protected Void doInBackground(Void... params) {
@@ -125,7 +129,6 @@ public class EnterGeneralDetails extends ActionBarActivity {
 
         }
 
-        return view;
+
     }
-}
 }

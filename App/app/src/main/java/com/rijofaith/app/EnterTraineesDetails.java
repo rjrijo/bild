@@ -84,7 +84,7 @@ public class EnterTraineesDetails extends FragmentActivity implements View.OnCli
 
         switch (idx) {
             case FRAGMENT_ONE:
-                newFragment = new EnterGeneralDetails();
+                newFragment = new EnterGeneralDetails.PlaceholderFragment();
                 break;
             case FRAGMENT_TWO:
                 newFragment = new EnterTrainingDetails();
