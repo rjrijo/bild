@@ -30,83 +30,102 @@ import java.util.ArrayList;
 /**
  * Created by rijo on 16-Sep-15.
  */
-public class EnterGeneralDetails extends Fragment {
-
-    ArrayList<String> listItems=new ArrayList<>();
+public class EnterGeneralDetails extends ActionBarActivity {
+    ArrayList<String> listItems = new ArrayList<>();
     ArrayAdapter<String> adapter;
     Spinner sp;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_general_details);
-        sp=(Spinner)findViewById(R.id.spinner);
-        adapter=new ArrayAdapter<String>(this,R.layout.spinner_layout,R.id.textView8,listItems);
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.container, new PlaceholderFragment())
+                    .commit();
+        }
+
+        adapter = new ArrayAdapter<String>(this, R.layout.spinner_layout, R.id.textView8, listItems);
         sp.setAdapter(adapter);
 
     }
-    public void onStart(){
-        super.onStart();
-        BackTask bt=new BackTask();
-        bt.execute();
+
+    protected void onPostExecute(Void result) {
+        listItems.addAll(list);
+        adapter.notifyDataSetChanged();
     }
 
-    private class BackTask extends AsyncTask<Void,Void,Void> {
-        ArrayList<String> list;
-        protected void onPreExecute(){
-            super.onPreExecute();
-            list=new ArrayList<>();
+    public static class PlaceholderFragment extends Fragment {
+
+        Spinner sp;
+
+        public PlaceholderFragment() {
         }
 
-        protected Void doInBackground(Void...params){
-            InputStream is=null;
-            String result="";
-            try{
-                HttpClient httpclient=new DefaultHttpClient();
-                HttpPost httppost= new HttpPost("http://thecapitalcitychurch.16mb.com/new/CohortName.php");
-                HttpResponse response=httpclient.execute(httppost);
-                HttpEntity entity = response.getEntity();
-                // Get our response as a String.
-                is = entity.getContent();
-            }catch(IOException e){
-                e.printStackTrace();
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            //Inflate the layout for this fragment
+
+            View view = inflater.inflate(R.layout.activity_general_details, container, false);
+
+            sp = (Spinner) view.findViewById(R.id.spinner);
+
+        public void onStart() {
+            super.onStart();
+            BackTask bt = new BackTask();
+            bt.execute();
+        }
+
+        private class BackTask extends AsyncTask<Void, Void, Void> {
+            ArrayList<String> list;
+
+            protected void onPreExecute() {
+                super.onPreExecute();
+                list = new ArrayList<>();
             }
 
-            //convert response to string
-            try{
-                BufferedReader reader = new BufferedReader(new InputStreamReader(is,"utf-8"));
-                String line = null;
-                while ((line = reader.readLine()) != null) {
-                    result+=line;
+            protected Void doInBackground(Void... params) {
+                InputStream is = null;
+                String result = "";
+                try {
+                    HttpClient httpclient = new DefaultHttpClient();
+                    HttpPost httppost = new HttpPost("http://thecapitalcitychurch.16mb.com/new/CohortName.php");
+                    HttpResponse response = httpclient.execute(httppost);
+                    HttpEntity entity = response.getEntity();
+                    // Get our response as a String.
+                    is = entity.getContent();
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-                is.close();
-                //result=sb.toString();
-            }catch(Exception e){
-                e.printStackTrace();
-            }
-            // parse json data
-            try{
-                JSONArray jArray =new JSONArray(result);
-                for(int i=0;i<jArray.length();i++){
-                    JSONObject jsonObject=jArray.getJSONObject(i);
-                    // add interviewee name to arraylist
-                    list.add(jsonObject.getString("Cohort_Name"));
-                }
-            }
-            catch(JSONException e){
-                e.printStackTrace();
-            }
-            return null;
-        }
-        protected void onPostExecute(Void result){
-            listItems.addAll(list);
-            adapter.notifyDataSetChanged();
-        }
-    }
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        //Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.activity_general_details, container, false);
+                //convert response to string
+                try {
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(is, "utf-8"));
+                    String line = null;
+                    while ((line = reader.readLine()) != null) {
+                        result += line;
+                    }
+                    is.close();
+                    //result=sb.toString();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                // parse json data
+                try {
+                    JSONArray jArray = new JSONArray(result);
+                    for (int i = 0; i < jArray.length(); i++) {
+                        JSONObject jsonObject = jArray.getJSONObject(i);
+                        // add interviewee name to arraylist
+                        list.add(jsonObject.getString("Cohort_Name"));
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+
+        }
+
         return view;
     }
+}
 }
