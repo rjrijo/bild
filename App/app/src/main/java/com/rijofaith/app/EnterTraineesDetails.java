@@ -20,7 +20,7 @@ public class EnterTraineesDetails extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_trainees_details);
+        setContentView(R.layout.activity_enter_trainees_details);
     }
 
 
