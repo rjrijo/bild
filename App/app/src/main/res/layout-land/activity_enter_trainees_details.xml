@@ -2,7 +2,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_login"
     tools:context="${relativePackage}.${activityClass}" >
 
     <Button
@@ -19,135 +18,197 @@
         android:layout_alignParentStart="true" />
 
 
-    <LinearLayout
-        android:orientation="vertical"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
         android:layout_below="@+id/btnEnter_trainees_details"
-        android:id="@+id/linearLayout4">
+        android:layout_above="@+id/btnLogout" >
 
-        <TableLayout
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_below="@+id/btnEnter_trainees_details"
-            android:layout_above="@+id/fragment_place">
+            android:layout_above="@+id/btnLogout">
 
-            <TableRow
+            <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:gravity="center">
+                android:layout_height="wrap_content">
 
-                <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_general_details"
-                    android:id="@+id/btnGeneral_details"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="click" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_training_details"
-                    android:id="@+id/btnTraining_details"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="click" />
+                    <Button
+                        android:id="@+id/btnGeneral_details"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_general_details"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterGeneralDetails"
+                        android:layout_below="@+id/btnEnter_edit_trainees_details"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="2.5dp" />
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_assessment_info_1"
-                    android:id="@+id/btnAssessment_info_1"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="click" />
+                    <Button
+                        android:id="@+id/btnTraining_details"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_training_details"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterTrainingDetails"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="2.5dp"
+                        android:layout_marginRight="5dp" />
+                </TableRow>
 
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_assessment_info_2"
-                    android:id="@+id/btnAssessment_info_2"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:onClick="click" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-            </TableRow>
+                    <Button
+                        android:id="@+id/btnAssessment_info_1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_assessment_info_1"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterAssessmentInfo1"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="2.5dp" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
+                    <Button
+                        android:id="@+id/btnAssessment_info_2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_assessment_info_2"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterAssessmentInfo2"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="2.5dp"
+                        android:layout_marginRight="5dp" />
+                </TableRow>
 
-                <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_official_details"
-                    android:id="@+id/btnOfficial_details"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="click" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-                <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_additional_information"
-                    android:id="@+id/btnAdditional_information"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="click" />
+                    <Button
+                        android:id="@+id/btnOfficial_details"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_official_details"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterOfficialDetails"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="2.5dp" />
 
-                <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_testimony"
-                    android:id="@+id/btnTestimony"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="10dp"
-                    android:onClick="click" />
+                    <Button
+                        android:id="@+id/btnAdditional_information"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_additional_information"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterAdditionalInformation"
+                        android:layout_below="@+id/btnEnter_edit_trainees_details"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="2.5dp"
+                        android:layout_marginRight="5dp" />
+                </TableRow>
 
-                <Button
-                    android:layout_width="fill_parent"
-                    android:layout_height="30dp"
-                    android:background="@color/btn_login_bg"
-                    android:textColor="@color/btn_login"
-                    android:text="@string/btn_family_details"
-                    android:id="@+id/btnFamily_details"
-                    android:textAllCaps="false"
-                    android:textSize="10dp"
-                    android:layout_marginTop="5dp"
-                    android:onClick="click" />
-            </TableRow>
-        </TableLayout>
-    </LinearLayout>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/btnTestimony"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_testimony"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterTestimony"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="2.5dp"
+                        android:layout_weight="1"/>
+
+                    <Button
+                        android:id="@+id/btnFamily_details"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_logut_bg"
+                        android:text="@string/btn_family_details"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:onClick="EnterFamilyDetails"
+                        android:layout_below="@+id/btnEnter_edit_trainees_details"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="2.5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/btnLogout"
@@ -162,14 +223,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="back" />
-
-    <fragment
-        android:name="com.rijofaith.EnterTraineeDetails.EnterGeneralDetails"
-        android:id="@+id/fragment_place"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnLogout"
-        android:layout_below="@+id/linearLayout4" />
 
 
 </RelativeLayout>
