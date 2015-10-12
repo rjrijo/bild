@@ -1,4 +1,4 @@
-package com.rijofaith.EnterTraineeDetails;
+package com.rijofaith.app;
 
         import android.os.Bundle;
         import android.support.v4.app.Fragment;

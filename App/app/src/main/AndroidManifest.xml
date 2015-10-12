@@ -85,6 +85,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.rijofaith.app.Trainees" />
         </activity>
+        <activity
+            android:name=".EnterGeneralDetails"
+            android:label="@string/title_activity_general_details"
+            android:parentActivityName=".EnterTraineesDetails"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.EnterTraineesDetails" />
+        </activity>
+        <activity
+            android:name=".EnterTrainingDetails"
+            android:label="@string/title_activity_training_details"
+            android:parentActivityName=".EnterTraineesDetails"
+            android:configChanges="orientation|screenSize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rijofaith.app.EnterTraineesDetails" />
+        </activity>
     </application>
 
 </manifest>

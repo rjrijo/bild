@@ -26,6 +26,8 @@
     <string name="btn_trainees_list">Trainees List</string>
     <string name="title_activity_enter_edit_trainees_details">EnterEditTraineesDetails</string>
     <string name="title_activity_trainees_list">TraineesList</string>
+    <string name="title_activity_general_details">General Details</string>
+    <string name="title_activity_training_details">Training Details Details</string>
 
     <string name="lbl1">Agape Institute Of Leadership Development and BILD</string>
 

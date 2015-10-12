@@ -750,7 +750,7 @@
             </TableLayout>
 
             <fragment
-                android:name="com.rijofaith.EnterTraineeDetails.Info"
+                android:name="com.rijofaith.app.Info"
                 android:id="@+id/fragment_place"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

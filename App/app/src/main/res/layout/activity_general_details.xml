@@ -1,679 +1,688 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_login"
-    android:weightSum="1">
+    android:background="@color/bg_login">
 
-
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="471dp"
-        android:id="@+id/scrollView5">
-
-        <TableLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:showDividers="middle">
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/bg_login2">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/current_cohort_name"
-                                android:id="@+id/textViewCurrent_cohort_name"
-                                android:textColor="@color/white"/>
-
-                            <Spinner
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/spinner" />
-
-
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/bg_login2">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/cohort_leader"
-                                android:id="@+id/textViewCohort_leader"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:inputType="textPersonName"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/bg_login2">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/associate_faculty"
-                                android:id="@+id/textViewAssociate_faculty"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText2"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/bg_login2">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/cohort_location"
-                                android:id="@+id/textViewCohort_location"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText3"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/bg_login2">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/current_cohort_id"
-                                android:id="@+id/textViewCurrent_cohort_id"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText4"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:background="@color/bg_login2">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/certified_leader"
-                                android:id="@+id/textViewCertified_leader"
-                                android:layout_column="0"
-                                android:textColor="@color/white"
-                                android:layout_marginBottom="3dp" />
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="3dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText5"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/volunteer_id"
-                                android:id="@+id/textViewVolunteer_id"
-                                android:layout_column="0"
-                                android:textColor="@color/white"
-                                android:layout_marginTop="3dp" />
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText6"
-                                android:layout_column="1"
-                                android:layout_marginTop="3dp" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/title"
-                                android:id="@+id/textViewTitle"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <Spinner
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/spinner3"
-                                android:layout_column="1" />
-
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/full_name"
-                                android:id="@+id/textViewFull_name"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText7"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/mission"
-                                android:id="@+id/textViewMission"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <Spinner
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/spinner4"
-                                android:layout_column="1" />
-
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/church"
-                                android:id="@+id/textViewChurch"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <Spinner
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/spinner5"
-                                android:layout_column="1" />
-
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/designation"
-                                android:id="@+id/textViewDesignation"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <Spinner
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/spinner6"
-                                android:layout_column="1" />
-
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/dob"
-                                android:id="@+id/textViewDob"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText8"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/age"
-                                android:id="@+id/textViewAge"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText9"
-                                android:layout_column="1" />
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/gender"
-                                android:id="@+id/textViewGender"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <LinearLayout
-                                android:orientation="horizontal"
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent">
-
-                                <RadioButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/rd_btn_male"
-                                    android:id="@+id/radioButton_male" />
-
-                                <RadioButton
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:text="@string/rd_btn_female"
-                                    android:id="@+id/radioButton_female" />
-                            </LinearLayout>
-
-                        </TableRow>
-
-                        <TableRow
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:textAppearance="?android:attr/textAppearanceSmall"
-                                android:text="@string/email_id"
-                                android:id="@+id/textViewEmail_id"
-                                android:layout_column="0"
-                                android:textColor="@color/white"/>
-
-                            <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:background="@color/white"
-                                android:layout_marginBottom="2dp"
-                                android:padding="2dp"
-                                android:singleLine="true"
-                                android:id="@+id/editText10"
-                                android:layout_column="1" />
-                        </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/home_phone"
-                    android:id="@+id/textViewHome_phone"
-                    android:layout_column="0"
-                    android:textColor="@color/white"/>
-
-                <EditText
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginBottom="2dp"
-                    android:padding="2dp"
-                    android:singleLine="true"
-                    android:id="@+id/editText11"
-                    android:layout_column="1" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/mobile_phone"
-                    android:id="@+id/textViewMobile_phone"
-                    android:layout_column="0"
-                    android:textColor="@color/white"/>
-
-                <EditText
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginBottom="2dp"
-                    android:padding="2dp"
-                    android:singleLine="true"
-                    android:id="@+id/editText12"
-                    android:layout_column="1" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/present_address"
-                    android:id="@+id/textViewPresent_address"
-                    android:layout_column="0"
-                    android:textColor="@color/white"/>
-
-                <EditText
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginBottom="2dp"
-                    android:padding="2dp"
-                    android:singleLine="true"
-                    android:id="@+id/editText13"
-                    android:layout_column="1" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/state"
-                    android:id="@+id/textViewState"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/spinner7" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/district"
-                    android:id="@+id/textViewDistrict"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/spinner8" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/block"
-                    android:id="@+id/textViewBlock"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/spinner9" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/village"
-                    android:id="@+id/textViewVillage"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/spinner10" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/pin"
-                    android:id="@+id/textViewPin"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <EditText
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginBottom="2dp"
-                    android:padding="2dp"
-                    android:singleLine="true"
-                    android:id="@+id/editText14"
-                    android:layout_column="1" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/country"
-                    android:id="@+id/textViewCountry"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <Spinner
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/spinner11" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/permanent_address"
-                    android:id="@+id/textViewPermanent_address"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <EditText
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginBottom="2dp"
-                    android:padding="2dp"
-                    android:singleLine="true"
-                    android:id="@+id/editText15"
-                    android:layout_column="1" />
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/personal_identification"
-                    android:id="@+id/textViewPersonal_identification"
-                    android:layout_column="0"
-                    android:textColor="@color/white" />
-
-                <EditText
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:layout_marginBottom="2dp"
-                    android:padding="2dp"
-                    android:singleLine="true"
-                    android:id="@+id/editText16"
-                    android:layout_column="1" />
-
-            </TableRow>
-
-
-        </TableLayout>
-    </ScrollView>
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="fill_parent"
+            android:id="@+id/btnCohort"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/btn_logut_bg"
-            android:text="@string/btn_logout"
+            android:text="@string/btn_general_details"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="15dp"
-            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:onClick="back"
-            android:layout_gravity="bottom" />
-    </LinearLayout>
+            android:layout_alignParentStart="true" />
 
 
-</LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/horizontalScrollView4"
+        android:layout_below="@+id/btnCohort"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:layout_above="@+id/btnLogout">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView9"
+            android:layout_below="@+id/btnCohort"
+            android:fillViewport="true"
+            android:focusable="true"
+            android:layout_above="@+id/btnLogout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="415dp"
+                android:layout_above="@+id/btnLogout"
+                android:layout_below="@+id/btnCohort">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg_login2" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/current_cohort_name"
+                            android:id="@+id/textView8"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner22" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg_login2" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/cohort_leader"
+                            android:id="@+id/textView9"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText47"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg_login2" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/associate_faculty"
+                            android:id="@+id/textView10"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText48"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg_login2" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/cohort_location"
+                            android:id="@+id/textView11"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText49"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg_login2" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/current_cohort_id"
+                            android:id="@+id/textView12"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText50"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/bg_login2" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/certified_leader"
+                            android:id="@+id/textView13"
+                            android:layout_column="0"
+                            android:textColor="@color/white"
+                            android:layout_marginBottom="3dp" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="3dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText51"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/volunteer_id"
+                            android:id="@+id/textView14"
+                            android:layout_column="0"
+                            android:textColor="@color/white"
+                            android:layout_marginTop="3dp" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText52"
+                            android:layout_column="1"
+                            android:layout_marginTop="3dp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/title"
+                            android:id="@+id/textView15"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner23"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/full_name"
+                            android:id="@+id/textView16"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText53"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/mission"
+                            android:id="@+id/textView17"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner27"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/church"
+                            android:id="@+id/textView18"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner28"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/designation"
+                            android:id="@+id/textView19"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner29"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/dob"
+                            android:id="@+id/textView20"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText54"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/age"
+                            android:id="@+id/textView21"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText55"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/gender"
+                            android:id="@+id/textView22"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rd_btn_male"
+                                android:id="@+id/radioButton3" />
+
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/rd_btn_female"
+                                android:id="@+id/radioButton4" />
+                        </LinearLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/email_id"
+                            android:id="@+id/textView23"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText56"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/home_phone"
+                            android:id="@+id/textView24"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText57"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/mobile_phone"
+                            android:id="@+id/textView25"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText58"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/present_address"
+                            android:id="@+id/textView26"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText59"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/state"
+                            android:id="@+id/textView27"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner30" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/district"
+                            android:id="@+id/textView28"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner31" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/block"
+                            android:id="@+id/textView29"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner32" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/village"
+                            android:id="@+id/textView30"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner33" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/pin"
+                            android:id="@+id/textView31"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText60"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/country"
+                            android:id="@+id/textView32"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <Spinner
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/spinner34" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/permanent_address"
+                            android:id="@+id/textView33"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText61"
+                            android:layout_column="1" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/personal_identification"
+                            android:id="@+id/textView34"
+                            android:layout_column="0"
+                            android:textColor="@color/white" />
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:id="@+id/editText62"
+                            android:layout_column="1" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+    <Button
+    android:id="@+id/btnLogout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/btn_logut_bg"
+    android:text="@string/btn_logout"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:textSize="15dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:onClick="back" />
+
+</RelativeLayout>
+

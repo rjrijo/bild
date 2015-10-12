@@ -6,15 +6,6 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.rijofaith.EnterTraineeDetails.EnterAdditionalInformation;
-import com.rijofaith.EnterTraineeDetails.EnterAssessmentInfo1;
-import com.rijofaith.EnterTraineeDetails.EnterAssessmentInfo2;
-import com.rijofaith.EnterTraineeDetails.EnterFamilyDetails;
-import com.rijofaith.EnterTraineeDetails.EnterGeneralDetails;
-import com.rijofaith.EnterTraineeDetails.EnterOfficialDetails;
-import com.rijofaith.EnterTraineeDetails.EnterTestimony;
-import com.rijofaith.EnterTraineeDetails.EnterTrainingDetails;
-
 public class EnterTraineesDetails extends Activity {
 
     @Override
