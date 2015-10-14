@@ -27,7 +27,14 @@
     <string name="title_activity_enter_edit_trainees_details">EnterEditTraineesDetails</string>
     <string name="title_activity_trainees_list">TraineesList</string>
     <string name="title_activity_general_details">General Details</string>
-    <string name="title_activity_training_details">Training Details Details</string>
+    <string name="title_activity_training_details">Training Details</string>
+    <string name="title_activity_assessment_info_1">Assessment Info 1</string>
+    <string name="title_activity_assessment_info_2">Assessment Info 2</string>
+    <string name="title_activity_official_details">Official Details</string>
+    <string name="title_activity_additional_info">Additional Info</string>
+    <string name="title_activity_testimony">Testimony</string>
+    <string name="title_activity_family_details">Family Details</string>
+
 
     <string name="lbl1">Agape Institute Of Leadership Development and BILD</string>
 

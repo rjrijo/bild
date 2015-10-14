@@ -1,19 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_login">
 
-
-    <ScrollView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnAssessment_info_2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView4" >
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_assessment_info_2"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/horizontalScrollView6"
+        android:layout_below="@+id/btnAssessment_info_2"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:layout_above="@+id/btnLogout">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView11"
+            android:layout_below="@+id/btnAssessment_info_2"
+            android:fillViewport="true"
+            android:focusable="true"
+            android:layout_above="@+id/btnLogout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="415dp"
+                android:layout_above="@+id/btnLogout"
+                android:layout_below="@+id/btnAssessment_info_2">
 
             <TableLayout
                 android:layout_width="fill_parent"
@@ -571,7 +598,22 @@
                 </TableRow>
 
             </TableLayout>
-        </LinearLayout>
-    </ScrollView>
+            </LinearLayout>
+        </ScrollView>
+    </HorizontalScrollView>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="back" />
+
+</RelativeLayout>

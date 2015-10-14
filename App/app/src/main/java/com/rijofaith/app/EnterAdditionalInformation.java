@@ -1,5 +1,6 @@
 package com.rijofaith.app;
 
+        import android.app.Activity;
         import android.os.Bundle;
         import android.support.v4.app.Fragment;
         import android.view.LayoutInflater;
@@ -11,12 +12,14 @@ package com.rijofaith.app;
 /**
  * Created by rijo on 16-Sep-15.
  */
-public class EnterAdditionalInformation extends Fragment {
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        //Inflate the layout for this fragment
 
-        View view = inflater.inflate(R.layout.activity_additional_information, container, false);
-        return view;
+public class EnterAdditionalInformation extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_additional_information);
+
+
     }
 }

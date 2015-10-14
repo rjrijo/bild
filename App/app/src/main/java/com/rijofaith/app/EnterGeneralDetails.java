@@ -24,7 +24,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 
-public class EnterGeneralDetails extends ActionBarActivity {
+public class EnterGeneralDetails extends Activity {
 
     ArrayList<String> listItems=new ArrayList<>();
     ArrayAdapter<String> adapter;

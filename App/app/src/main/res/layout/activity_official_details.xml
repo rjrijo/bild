@@ -1,20 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_login"
-    android:weightSum="1">
+    android:background="@color/bg_login">
 
-    <ScrollView
+    <Button
+        android:id="@+id/btnOfficial_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_official_details"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <HorizontalScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/scrollView6"
-        android:layout_weight="1.05">
+        android:id="@+id/horizontalScrollView7"
+        android:layout_below="@+id/btnOfficial_details"
+        android:fillViewport="true"
+        android:focusable="true"
+        android:layout_above="@+id/btnLogout">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView12"
+            android:layout_below="@+id/btnOfficial_details"
+            android:fillViewport="true"
+            android:focusable="true"
+            android:layout_above="@+id/btnLogout">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="415dp"
+                android:layout_above="@+id/btnLogout"
+                android:layout_below="@+id/btnOfficial_details">
 
             <TableLayout
                 android:layout_width="fill_parent"
@@ -748,18 +773,21 @@
                     </LinearLayout>
                 </TableRow>
             </TableLayout>
-
-            <fragment
-                android:name="com.rijofaith.app.Info"
-                android:id="@+id/fragment_place"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/linearLayout3"
-                android:layout_toEndOf="@+id/linearLayout3"
-                android:layout_below="@+id/btnEnter_trainees_details"
-                android:layout_above="@+id/btnLogout"
-                android:layout_marginLeft="2dp" />
-
         </LinearLayout>
     </ScrollView>
-</LinearLayout>
+    </HorizontalScrollView>
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_logut_bg"
+        android:text="@string/btn_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="back" />
+
+</RelativeLayout>
