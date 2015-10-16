@@ -183,4 +183,26 @@
     <string name="date_of_marriage">Date of Marriage</string>
     <string name="spouse_name">Spouse\'s Name</string>
 
+    <string-array name="Cohort_name">
+        <item>Ahmedabad (B Min) - 1</item>
+        <item>Ahmedabad (B Min) - 2</item>
+        <item>Allahabad (B Min) - 1</item>
+        <item>Delhi (B Min) - 1</item>
+        <item>Delhi (D Min) - 1</item>
+        <item>Delhi (D Min) - 2</item>
+        <item>Delhi (M Min) - 1</item>
+        <item>Himachal (B Min) - 1</item>
+        <item>Himachal (M Min) - 1</item>
+        <item>Jaipur (B Min) - 1</item>
+        <item>Jammu (B Min) - 1</item>
+        <item>Jarg (B Min) - 1</item>
+        <item>Jaunpur (B Min) - 1</item>
+        <item>Kacchwa (B Min) - 1</item>
+        <item>Kanjikuzhy (B Min) - 1</item>
+        <item>Ludhiana (B Min) - 1</item>
+        <item>Ludhiana (B Min) - 2</item>
+
+
+    </string-array>
+
 </resources>

@@ -63,7 +63,9 @@
                         <Spinner
                             android:layout_width="fill_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/spinner22" />
+                            android:id="@+id/spinner22"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp" />
                     </TableRow>
 
                     <TableRow
@@ -236,7 +238,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/spinner23"
-                            android:layout_column="1" />
+                            android:layout_column="1"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp" />
                     </TableRow>
 
                     <TableRow
@@ -280,7 +284,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/spinner27"
-                            android:layout_column="1" />
+                            android:layout_column="1"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp" />
                     </TableRow>
 
                     <TableRow
@@ -300,7 +306,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/spinner28"
-                            android:layout_column="1" />
+                            android:layout_column="1"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp" />
                     </TableRow>
 
                     <TableRow
@@ -320,7 +328,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:id="@+id/spinner29"
-                            android:layout_column="1" />
+                            android:layout_column="1"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"/>
                     </TableRow>
 
                     <TableRow
@@ -515,7 +525,9 @@
                         <Spinner
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/spinner30" />
+                            android:id="@+id/spinner30"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"/>
                     </TableRow>
 
                     <TableRow
@@ -534,7 +546,9 @@
                         <Spinner
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/spinner31" />
+                            android:id="@+id/spinner31"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"/>
                     </TableRow>
 
                     <TableRow
@@ -553,7 +567,9 @@
                         <Spinner
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/spinner32" />
+                            android:id="@+id/spinner32"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"/>
                     </TableRow>
 
                     <TableRow
@@ -572,7 +588,9 @@
                         <Spinner
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/spinner33" />
+                            android:id="@+id/spinner33"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"/>
                     </TableRow>
 
                     <TableRow
@@ -615,7 +633,9 @@
                         <Spinner
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/spinner34" />
+                            android:id="@+id/spinner34"
+                            android:background="@color/white"
+                            android:layout_marginBottom="2dp"/>
                     </TableRow>
 
                     <TableRow
