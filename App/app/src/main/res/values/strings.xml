@@ -202,6 +202,84 @@
         <item>Ludhiana (B Min) - 1</item>
         <item>Ludhiana (B Min) - 2</item>
 
+    </string-array>
+
+    <string-array name="mission">
+        <item>I.P.C</item>
+        <item>Operation Agape</item>
+        <item>Gilgal Mission Church</item>
+        <item>Shin International</item>
+        <item>Eternal life Church</item>
+        <item>Penticost</item>
+        <item>Arnest Evangiliz Church</item>
+        <item>Athmik Marih</item>
+        <item>CATHELICATE</item>
+        <item>Penticost Belivers church</item>
+        <item>Bersheba</item>
+        <item>Sathsangath fellowship</item>
+        <item>Milan Fellowship church</item>
+        <item>Grace Of God</item>
+        <item>CSI</item>
+        <item>AG</item>
+        <item>Kings Way Revival Church</item>
+        <item>Jeevan Joythi Ministries</item>
+        <item>Victory Church Of India</item>
+        <item>JJM</item>
+        <item>Bethel  Gospel Fellowship</item>
+        <item>Appostholic Assembly</item>
+        <item>Christ\'s Church</item>
+        <item>Bible Beliver\'s Church</item>
+        <item>Calvary Temple</item>
+        <item>Grace Bible College</item>
+        <item>OA</item>
+
+    </string-array>
+
+    <string-array name="church">
+        <item>K.T.M.</item>
+        <item>I. M.S.</item>
+        <item>Khanapur</item>
+        <item>Rewa Church</item>
+        <item>K.T.F.</item>
+        <item>O.A.</item>
+        <item>JMCT</item>
+        <item>Yeshu Darbar</item>
+        <item>Jaiwant Development Society</item>
+        <item>I.M.S.</item>
+        <item>Kachhwa Christian Church</item>
+        <item>Graece Prayer Fellowship</item>
+        <item>K.T. M.</item>
+        <item>I.P.C</item>
+        <item>A.G Church</item>
+        <item>C.N.I Ludhiana</item>
+        <item>Methodist church</item>
+        <item>Agape Christian Aseembly</item>
+        <item>OA</item>
+        <item>HOPE IN JESUS APOSTOLIC CHURCH OF CHRIST, TRIVANDRUM</item>
+        <item>VASAI BAPTIST CHURCH</item>
+        <item>DISCIPLE CHURCH OF INDIA</item>
+        <item>AGAPE PANIPAT ASSEMBLY CHURCH</item>
+        <item>Medhapali House Church</item>
+        <item>Assemblies Of God</item>
+        <item>Global Harvest Church</item>
+        <item>Apostolic Faith Church</item>
+        <item>Calvary Temple Fellowship</item>
+        <item>India Gospel Church</item>
+
+    </string-array>
+
+    <string-array name="designation">
+        <item>Evangelist</item>
+        <item>Master Trainer</item>
+        <item>Pastor</item>
+        <item>Binu_Alexander</item>
+        <item>O.A Staff</item>
+        <item>Other</item>
+        <item>Jobin_Cherian</item>
+        <item>Team Leader</item>
+        <item>Josen_Chacko</item>
+        <item>Nitika_Daniel</item>
+
 
     </string-array>
 

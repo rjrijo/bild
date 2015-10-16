@@ -2,32 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/home/rijo/bild/App/app/libs/volley.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/volley-01fadfdff09022698e10b4f7f408304cd19f08de.jar" />
-    </item>
-    <item
         jar="/home/rijo/bild/App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="22.0.1"
         sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
         <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-34b82123d63b6d72659c98ca5d85324110a00eac.jar" />
     </item>
     <item
         jar="/home/rijo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="22.0.1"
         sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
         <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-35bc557f4b848859600db7b50a61df5f8210f6d7.jar" />
     </item>
     <item
-        jar="/home/rijo/bild/App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/home/rijo/bild/App/app/libs/volley.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/classes-e6f5b2b3f2f6879e288aaeb520068d9d5e877c3a.jar" />
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/volley-01fadfdff09022698e10b4f7f408304cd19f08de.jar" />
     </item>
     <item
         jar="/home/rijo/bild/App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
@@ -37,39 +30,11 @@
         <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/classes-ea995f5c046a6fbcc89d7c76a8afc379f86e823e.jar" />
     </item>
     <item
-        jar="/home/rijo/bild/App/app/libs/volley.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
-        <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/volley-01fadfdff09022698e10b4f7f408304cd19f08de.jar" />
-    </item>
-    <item
         jar="/home/rijo/bild/App/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="22.0.1"
         sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
         <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/classes-e6f5b2b3f2f6879e288aaeb520068d9d5e877c3a.jar" />
-    </item>
-    <item
-        jar="/home/rijo/bild/App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-34b82123d63b6d72659c98ca5d85324110a00eac.jar" />
-    </item>
-    <item
-        jar="/home/rijo/bild/App/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/classes-ea995f5c046a6fbcc89d7c76a8afc379f86e823e.jar" />
-    </item>
-    <item
-        jar="/home/rijo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/home/rijo/bild/App/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-35bc557f4b848859600db7b50a61df5f8210f6d7.jar" />
     </item>
 
 </items>
