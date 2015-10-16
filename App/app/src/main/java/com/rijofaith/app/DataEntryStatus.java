@@ -134,7 +134,7 @@ public class DataEntryStatus extends Activity {
             label.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             label.setPadding(5, 5, 5, 5);
-            label.setBackgroundColor(Color.GRAY);
+            label.setBackgroundColor(Color.WHITE);
             LinearLayout Ll = new LinearLayout(this);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -149,7 +149,7 @@ public class DataEntryStatus extends Activity {
             count.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             count.setPadding(5, 5, 5, 5);
-            count.setBackgroundColor(Color.GRAY);
+            count.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);

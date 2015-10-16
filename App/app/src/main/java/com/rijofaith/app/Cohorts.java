@@ -201,7 +201,7 @@ public class Cohorts extends Activity {
             label.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             label.setPadding(5, 5, 5, 5);
-            label.setBackgroundColor(Color.GRAY);
+            label.setBackgroundColor(Color.WHITE);
             LinearLayout Ll = new LinearLayout(this);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -216,7 +216,7 @@ public class Cohorts extends Activity {
             name.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             name.setPadding(5, 5, 5, 5);
-            name.setBackgroundColor(Color.GRAY);
+            name.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -231,7 +231,7 @@ public class Cohorts extends Activity {
             leader.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             leader.setPadding(5, 5, 5, 5);
-            leader.setBackgroundColor(Color.GRAY);
+            leader.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -246,7 +246,7 @@ public class Cohorts extends Activity {
             cert_leader.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             cert_leader.setPadding(5, 5, 5, 5);
-            cert_leader.setBackgroundColor(Color.GRAY);
+            cert_leader.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -261,7 +261,7 @@ public class Cohorts extends Activity {
             faculty.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             faculty.setPadding(5, 5, 5, 5);
-            faculty.setBackgroundColor(Color.GRAY);
+            faculty.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -276,7 +276,7 @@ public class Cohorts extends Activity {
             location.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             location.setPadding(5, 5, 5, 5);
-            location.setBackgroundColor(Color.GRAY);
+            location.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);

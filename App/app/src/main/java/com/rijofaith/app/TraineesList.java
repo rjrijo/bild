@@ -236,7 +236,7 @@ public class TraineesList extends Activity {
             label.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             label.setPadding(5, 5, 5, 5);
-            label.setBackgroundColor(Color.GRAY);
+            label.setBackgroundColor(Color.WHITE);
             LinearLayout Ll = new LinearLayout(this);
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -251,7 +251,7 @@ public class TraineesList extends Activity {
             name.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             name.setPadding(5, 5, 5, 5);
-            name.setBackgroundColor(Color.GRAY);
+            name.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -267,7 +267,7 @@ public class TraineesList extends Activity {
             age.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             age.setPadding(5, 5, 5, 5);
-            age.setBackgroundColor(Color.GRAY);
+            age.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -282,7 +282,7 @@ public class TraineesList extends Activity {
             sex.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             sex.setPadding(5, 5, 5, 5);
-            sex.setBackgroundColor(Color.GRAY);
+            sex.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -297,7 +297,7 @@ public class TraineesList extends Activity {
             curr_c_id.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             curr_c_id.setPadding(5, 5, 5, 5);
-            curr_c_id.setBackgroundColor(Color.GRAY);
+            curr_c_id.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -312,7 +312,7 @@ public class TraineesList extends Activity {
             c_name.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             c_name.setPadding(5, 5, 5, 5);
-            c_name.setBackgroundColor(Color.GRAY);
+            c_name.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -327,7 +327,7 @@ public class TraineesList extends Activity {
             state.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             state.setPadding(5, 5, 5, 5);
-            state.setBackgroundColor(Color.GRAY);
+            state.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
@@ -342,7 +342,7 @@ public class TraineesList extends Activity {
             district.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT,
                     LayoutParams.WRAP_CONTENT));
             district.setPadding(5, 5, 5, 5);
-            district.setBackgroundColor(Color.GRAY);
+            district.setBackgroundColor(Color.WHITE);
             Ll = new LinearLayout(this);
             params = new LinearLayout.LayoutParams(LayoutParams.FILL_PARENT,
                     LayoutParams.WRAP_CONTENT);
