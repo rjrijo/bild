@@ -13,6 +13,11 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_training_details.xml">
+        <config>
+          <theme>@android:style/Theme.Material</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AndroidLogFilters">
@@ -22,187 +27,11 @@
     <list default="true" id="76a99409-2d5b-4a37-98d2-685427e62c1a" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/androidEditors.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/AndroidStudioProjects/App/.idea/libraries/appcompat_v7_22_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/fileEditorProviderManager.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/AndroidStudioProjects/App/.idea/libraries/support_annotations_22_2_1.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/AndroidStudioProjects/App/.idea/libraries/support_v4_22_2_1.xml" />
       <change type="NEW" beforePath="" afterPath="$USER_HOME$/AndroidStudioProjects/App/.idea/libraries/volley.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/../BILD/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/../MyApplication3/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/volley.jar" afterPath="$PROJECT_DIR$/app/libs/volley.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.gitignore" afterPath="$PROJECT_DIR$/../BILD/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/.gitignore" afterPath="$PROJECT_DIR$/../BILD/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.gitignore" afterPath="$PROJECT_DIR$/../MyApplication3/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/.gitignore" afterPath="$PROJECT_DIR$/../MyApplication3/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/.name" afterPath="$PROJECT_DIR$/../BILD/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/.name" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.iml" afterPath="$PROJECT_DIR$/App.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/rijofaith/app/ApplicationTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/rijofaith/app/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/androidTest/java/com/rijofaith/bild/ApplicationTest.java" afterPath="$PROJECT_DIR$/../BILD/app/src/androidTest/java/com/rijofaith/bild/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/androidTest/java/com/rijofaith/myapplication/ApplicationTest.java" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/androidTest/java/com/rijofaith/myapplication/ApplicationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/BILD.iml" afterPath="$PROJECT_DIR$/../BILD/BILD.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/BackgroundTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/BackgroundTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/BackgroundTask.java" afterPath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/BackgroundTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/Cohorts.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/Cohorts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/DataEntryStatus.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/DataEntryStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/EditTraineeDetails/EditGeneralDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/EditTraineeDetails/EditGeneralDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EditTraineesDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EditTraineesDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/EditTraineeDetails/EditTrainingDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/EditTraineeDetails/EditTrainingDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterAdditionalInformation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterAdditionalInformation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterAssessmentInfo1.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterAssessmentInfo1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterAssessmentInfo2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterAssessmentInfo2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterFamilyDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterFamilyDetails.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterGeneralDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterGeneralDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterOfficialDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterOfficialDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTestimony.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTestimony.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTraineesDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTraineesDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTrainingDetails.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTrainingDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/Cohort/GetCohorts.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/Cohort/GetCohorts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/DataEntryStatus/GetDataEntryStatus.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/DataEntryStatus/GetDataEntryStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TraineesList/GetTraineesList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TraineesList/GetTraineesList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TrainingStatus/GetTrainingStatus.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TrainingStatus/GetTrainingStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/Info.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/Info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/Main2Activity.java" afterPath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/Main2Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/MainActivity.java" afterPath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/java/com/rijofaith/myapplication/MainActivity.java" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/java/com/rijofaith/myapplication/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/MyApplication3.iml" afterPath="$PROJECT_DIR$/../MyApplication3/MyApplication3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/Register.java" afterPath="$PROJECT_DIR$/../BILD/app/src/main/java/com/rijofaith/bild/Register.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/Trainees.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/Trainees.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/TraineesList.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/TraineesList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/TrainingStatus.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/TrainingStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/Cohort/Users.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/Cohort/Users.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TraineesList/Users2.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TraineesList/Users2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/DataEntryStatus/Users3.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/DataEntryStatus/Users3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TrainingStatus/Users4.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/rijofaith/TrainingStatus/Users4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_additional_information.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_additional_information.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_assessment_info_1.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_assessment_info_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_assessment_info_2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_assessment_info_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_cohorts.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_cohorts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_data_entry_status.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_data_entry_status.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_trainees_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edit_trainees_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_enter_trainees_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_enter_trainees_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_enter_trainees_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_enter_trainees_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_family_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_family_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_general_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_general_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/layout/activity_main2.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/layout/activity_main2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_official_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_official_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_testimony.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_testimony.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_trainees.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_trainees.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_trainees_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_trainees_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_trainees_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-port/activity_trainees_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_training_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_training_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_training_status.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_training_status.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/app.iml" afterPath="$PROJECT_DIR$/../BILD/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/app.iml" afterPath="$PROJECT_DIR$/../MyApplication3/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/build.gradle" afterPath="$PROJECT_DIR$/../BILD/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/build.gradle" afterPath="$PROJECT_DIR$/../BILD/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/build.gradle" afterPath="$PROJECT_DIR$/../MyApplication3/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/build.gradle" afterPath="$PROJECT_DIR$/../MyApplication3/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values-w820dp/dimens.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../BILD/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../MyApplication3/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/gradle.properties" afterPath="$PROJECT_DIR$/../BILD/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/gradle.properties" afterPath="$PROJECT_DIR$/../MyApplication3/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/gradlew.bat" afterPath="$PROJECT_DIR$/../BILD/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/gradlew.bat" afterPath="$PROJECT_DIR$/../MyApplication3/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/gradlew" afterPath="$PROJECT_DIR$/../BILD/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/gradlew" afterPath="$PROJECT_DIR$/../MyApplication3/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_cohorts.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_cohorts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_data_entry_status.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_data_entry_status.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_enter_edit_trainees_details.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_enter_edit_trainees_details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/menu/menu_main2.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/menu/menu_main2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/menu/menu_register_layout.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/menu/menu_register_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_trainees.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_trainees.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_trainees_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_trainees_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_training_status.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_training_status.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/misc.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/misc.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/modules.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/modules.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/../BILD/app/proguard-rules.pro" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/../MyApplication3/app/proguard-rules.pro" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/layout/register_layout.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/layout/register_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/settings.gradle" afterPath="$PROJECT_DIR$/../BILD/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/settings.gradle" afterPath="$PROJECT_DIR$/../MyApplication3/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/../BILD/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BILD/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../BILD/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MyApplication3/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../MyApplication3/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="App.iws" />
@@ -227,7 +56,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-9.71875">
               <caret line="281" column="0" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
               <folding />
             </state>
@@ -237,8 +66,31 @@
       <file leaf-file-name="EnterGeneralDetails.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterGeneralDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93345654">
-              <caret line="171" column="67" selection-start-line="171" selection-start-column="67" selection-end-line="171" selection-end-column="67" />
+            <state vertical-scroll-proportion="0.40110907">
+              <caret line="191" column="90" selection-start-line="191" selection-start-column="90" selection-end-line="191" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnterTrainingDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTrainingDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_training_details.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_training_details.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1776,6 +1628,24 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
@@ -2016,7 +1886,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3066202" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
@@ -2024,7 +1895,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2033,7 +1904,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2054,36 +1924,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="281" column="0" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterGeneralDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/Cohort/GetCohorts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/Cohorts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="278" column="51" selection-start-line="278" selection-start-column="51" selection-end-line="278" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/TraineesList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2407,14 +2247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="281" column="0" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/Cohort/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2450,6 +2282,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTraineesDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13308688">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_general_details.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -2461,10 +2301,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout-land/activity_enter_trainees_details.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.71875">
+          <caret line="281" column="0" selection-start-line="281" selection-start-column="0" selection-end-line="281" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterTrainingDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_training_details.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/rijofaith/app/EnterGeneralDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93345654">
-          <caret line="171" column="67" selection-start-line="171" selection-start-column="67" selection-end-line="171" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.40110907">
+          <caret line="191" column="90" selection-start-line="191" selection-start-column="90" selection-end-line="191" selection-end-column="90" />
           <folding />
         </state>
       </provider>

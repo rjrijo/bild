@@ -189,7 +189,7 @@ public class EnterGeneralDetails extends ActionBarActivity {
                 try {
                     HttpClient httpClient = new DefaultHttpClient();
                     HttpPost httpPost = new HttpPost(
-                            "http://simplifiedcoding.16mb.com/insert-db.php");
+                            "http://thecapitalcitychurch.16mb.com/new/InsertGeneralDetails.php");
                     httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
                     HttpResponse response = httpClient.execute(httpPost);
