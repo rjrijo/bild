@@ -64,17 +64,30 @@
         </TableRow>
     </TableLayout>
 
-    <EditText
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:layout_marginBottom="2dp"
-        android:padding="2dp"
-        android:singleLine="true"
-        android:id="@+id/editText44"
-        android:layout_column="1"
-        android:layout_weight="0.81"
-        android:inputType="textMultiLine" />
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/bg_login"
+                    android:layout_marginBottom="3dp" >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginBottom="2dp"
+            android:padding="2dp"
+            android:singleLine="true"
+            android:id="@+id/editText44"
+            android:layout_column="1"
+            android:layout_weight="0.81"
+            android:inputType="textMultiLine" />
+
+        </TableRow>
+    </TableLayout>
+
 </LinearLayout>
     </ScrollView>
     </HorizontalScrollView>
