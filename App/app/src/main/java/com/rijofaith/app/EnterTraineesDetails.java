@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -34,27 +35,31 @@ public class EnterTraineesDetails extends Activity {
     Spinner spn_church;
     Spinner spn_designation;
 
+    CheckBox c1, c2, c3, c4;
+
     List<String> List_title = new ArrayList<String>();
     List<String> List_cohort = new ArrayList<String>();
     List<String> List_mission = new ArrayList<String>();
     List<String> List_chruch = new ArrayList<String>();
 
-    private EditText cohort_leader;
-    private EditText associate_faculty;
-    private EditText cohort_location;
-    private EditText current_cohort_id;
-    private EditText certified_leader;
-    private EditText volunteer_id;
-    private EditText fullname;
-    private EditText date_of_birth;
-    private EditText age;
-    private EditText email_id;
-    private EditText home_phone;
-    private EditText mobile_phone;
-    private EditText present_address;
-    private EditText pin;
-    private EditText permanent_address;
-    private EditText personal_identification;
+    EditText cohort_leader;
+    EditText associate_faculty;
+    EditText cohort_location;
+    EditText current_cohort_id;
+    EditText certified_leader;
+    EditText volunteer_id;
+    EditText fullname;
+    EditText date_of_birth;
+    EditText age;
+    EditText email_id;
+    EditText home_phone;
+    EditText mobile_phone;
+    EditText present_address;
+    EditText pin;
+    EditText permanent_address;
+    EditText personal_identification;
+    EditText eportfolio_username;
+    EditText eportfolio_password;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +71,14 @@ public class EnterTraineesDetails extends Activity {
         spn_mission = (Spinner) findViewById(R.id.spinner27);
         spn_church = (Spinner) findViewById(R.id.spinner28);
         spn_designation = (Spinner) findViewById(R.id.spinner29);
+
         populatespinner();
+
+        c1 =  (CheckBox) findViewById(R.id.checkBoxB_minus_bius);
+        c2 =  (CheckBox) findViewById(R.id.checkBoxB_minus_antioch_school);
+        c3 =  (CheckBox) findViewById(R.id.checkBoxM_minus_antioch_school);
+        c4 =  (CheckBox) findViewById(R.id.checkBoxD_minus_antioch_school);
+
 
         cohort_leader = (EditText) findViewById(R.id.editText47);
         associate_faculty = (EditText) findViewById(R.id.editText48);
@@ -84,6 +96,8 @@ public class EnterTraineesDetails extends Activity {
         pin = (EditText) findViewById(R.id.editText60);
         permanent_address = (EditText) findViewById(R.id.editText61);
         personal_identification = (EditText) findViewById(R.id.editText62);
+        eportfolio_username = (EditText) findViewById(R.id.editText20);
+        eportfolio_password = (EditText) findViewById(R.id.editText21);
     }
 
     public void populatespinner() {
@@ -125,11 +139,45 @@ public class EnterTraineesDetails extends Activity {
         String n = pin.getText().toString();
         String o = permanent_address.getText().toString();
         String p = personal_identification.getText().toString();
+        String q = null;
+        String r = null;
+        String s = eportfolio_username.getText().toString();
+        String t = eportfolio_password.getText().toString();
 
-        insertToDatabase(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p);
+        //checkbox
+        if((c1.isChecked()==false))
+        {
+            q = null;
+        }
+        else
+        {
+            q = "B Minus BIUS";
+        }
+
+        if((c2.isChecked()==false) && (c3.isChecked()==false) && (c4.isChecked()==false))
+        {
+            r = null;
+        }
+        else
+        {
+            if(c2.isChecked())
+            {
+                r="B Minus Antioch School";
+            }
+            if(c3.isChecked())
+            {
+                r=r.concat(" M Minus Antioch School");
+            }
+            if(c4.isChecked())
+            {
+                r=r.concat(" D Minus Antioch School");
+            }
+        }
+
+        insertToDatabase(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r,s,t);
     }
 
-    private void insertToDatabase(String a, String b, String c, String d, String e, String f, String g, String h, String i, String j, String k, String l, String m, String n, String o, String p) {
+    private void insertToDatabase(String a, String b, String c, String d, String e, String f, String g, String h, String i, String j, String k, String l, String m, String n, String o, String p, String q, String r, String s, String t) {
         class SendPostReqAsyncTask extends AsyncTask<String, Void, String> {
             @Override
             protected String doInBackground(String... params) {
@@ -149,6 +197,10 @@ public class EnterTraineesDetails extends Activity {
                 String param_n = params[13];
                 String param_o = params[14];
                 String param_p = params[15];
+                String param_q = params[16];
+                String param_r = params[17];
+                String param_s = params[18];
+                String param_t = params[19];
 
 
                 String a = cohort_leader.getText().toString();
@@ -167,6 +219,10 @@ public class EnterTraineesDetails extends Activity {
                 String n = pin.getText().toString();
                 String o = permanent_address.getText().toString();
                 String p = personal_identification.getText().toString();
+                String q = null;
+                String r = null;
+                String s = eportfolio_username.getText().toString();
+                String t = eportfolio_password.getText().toString();
 
                 List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
                 nameValuePairs.add(new BasicNameValuePair("a", a));
@@ -185,6 +241,10 @@ public class EnterTraineesDetails extends Activity {
                 nameValuePairs.add(new BasicNameValuePair("n", n));
                 nameValuePairs.add(new BasicNameValuePair("o", o));
                 nameValuePairs.add(new BasicNameValuePair("p", p));
+                nameValuePairs.add(new BasicNameValuePair("q", q));
+                nameValuePairs.add(new BasicNameValuePair("r", r));
+                nameValuePairs.add(new BasicNameValuePair("s", s));
+                nameValuePairs.add(new BasicNameValuePair("t", t));
 
                 try {
                     HttpClient httpClient = new DefaultHttpClient();
@@ -197,9 +257,9 @@ public class EnterTraineesDetails extends Activity {
                     HttpEntity entity = response.getEntity();
 
 
-                } catch (ClientProtocolException aa) {
+                } catch (ClientProtocolException excep) {
 
-                } catch (IOException aa) {
+                } catch (IOException excep) {
 
                 }
                 return "success";
@@ -211,12 +271,11 @@ public class EnterTraineesDetails extends Activity {
                 super.onPostExecute(result);
 
                 Toast.makeText(getApplicationContext(), result, Toast.LENGTH_LONG).show();
-                TextView textViewResult = (TextView) findViewById(R.id.textViewResult);
-                textViewResult.setText("Inserted");
+
             }
         }
         SendPostReqAsyncTask sendPostReqAsyncTask = new SendPostReqAsyncTask();
-        sendPostReqAsyncTask.execute(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p);
+        sendPostReqAsyncTask.execute(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t);
     }
 
 
