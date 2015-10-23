@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/btn_logut_bg"
-        android:text="@string/btn_general_details"
+        android:text="@string/btn_enter_trainees_details"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="15dp"
@@ -394,14 +394,11 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
 
                             <RadioGroup
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent">
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
                                 <RadioButton
                                     android:layout_width="wrap_content"
@@ -415,7 +412,7 @@
                                     android:text="@string/rd_btn_female"
                                     android:id="@+id/radioButton4" />
                             </RadioGroup>
-                        </LinearLayout>
+
                     </TableRow>
 
                     <TableRow
@@ -940,7 +937,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white"/>
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -957,7 +954,7 @@
                                 android:text="@string/not_certified"
                                 android:id="@+id/radioButton_Not_certified" />
 
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </TableRow>
 
@@ -1105,7 +1102,7 @@
                             android:id="@+id/textViewFirst_principle_Projects_done"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -1121,7 +1118,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonFirst_principle_Project_done_no" />
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </TableRow>
 
@@ -1138,7 +1135,7 @@
                             android:id="@+id/textViewFirst_principle_Oral_review"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -1154,7 +1151,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonFirst_principle_Oral_review_no" />
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </TableRow>
 
@@ -1172,7 +1169,7 @@
                             android:id="@+id/textViewFirst_principle_Assessment_done"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -1188,7 +1185,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonFirst_principle_Assessment_done_no" />
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </TableRow>
 
@@ -1276,7 +1273,7 @@
                             android:id="@+id/textViewLeadership_series_Projects_done"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -1292,7 +1289,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonLeadership_series_Project_done_no" />
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </TableRow>
 
@@ -1309,10 +1306,11 @@
                             android:id="@+id/textViewLeadership_series_Oral_review"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+
 
                             <RadioButton
                                 android:layout_width="wrap_content"
@@ -1325,7 +1323,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonLeadership_series_Oral_review_no" />
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </TableRow>
 
@@ -1342,7 +1340,7 @@
                             android:id="@+id/textViewLeadership_series_Assessment_done"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -1358,7 +1356,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonLeadership_series_Assessment_done_no" />
-                        </LinearLayout>
+                        </RadioGroup>
 
                     </TableRow>
                 </TableLayout>
@@ -1480,7 +1478,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -1496,7 +1494,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButton2" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -1595,7 +1593,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -1611,7 +1609,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonAttachment_Testimony_from_a_participant_of_teaching_practicum_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -1628,7 +1626,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -1644,7 +1642,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonAttachment_Testmony_from_an_ObserverTrainer_of_teaching_practicum_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -1661,7 +1659,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
@@ -1677,7 +1675,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonAttachment_Students_competency_assessments_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                 </TableLayout>
@@ -1746,7 +1744,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -1762,7 +1760,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonComplete_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -1899,7 +1897,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -1915,7 +1913,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonLife_to_the_end_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                 </TableLayout>
@@ -1963,7 +1961,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -1979,7 +1977,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonCertificate_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -1996,7 +1994,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2012,7 +2010,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonTestimony_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2029,7 +2027,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2045,7 +2043,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonFamily_photo_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2062,7 +2060,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2078,7 +2076,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonSpouse_photo_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2095,7 +2093,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2111,7 +2109,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonChildren_photo_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
                 </TableLayout>
 
@@ -2158,9 +2156,16 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent">
 
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
                                 <TableRow
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent">
+
+
 
                                     <RadioButton
                                         android:layout_width="wrap_content"
@@ -2182,6 +2187,7 @@
                                         android:text="@string/rd_btn_resigned"
                                         android:id="@+id/radioButtonPresent_status_resigned"
                                         android:layout_column="2"/>
+
                                 </TableRow>
 
                                 <TableRow
@@ -2205,7 +2211,9 @@
                                         android:layout_height="wrap_content"
                                         android:text="@string/rd_btn_other"
                                         android:id="@+id/radioButtonPresent_status_other" />
+
                                 </TableRow>
+                            </RadioGroup>
                             </TableLayout>
 
 
@@ -2257,7 +2265,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2273,7 +2281,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonTrainer_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2290,7 +2298,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2306,7 +2314,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonTrainee_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2323,7 +2331,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2339,7 +2347,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonChurch_plante_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2356,7 +2364,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2372,7 +2380,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonOffice_staff_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2389,7 +2397,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2405,7 +2413,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonMbb_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2422,7 +2430,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2438,7 +2446,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonSupervisor_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2455,7 +2463,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2471,7 +2479,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonSocial_worker_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2488,7 +2496,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2504,7 +2512,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonOthers_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
                 </TableLayout>
 
@@ -2555,6 +2563,11 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent" >
 
+                                    <RadioGroup
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
                                     <RadioButton
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
@@ -2568,6 +2581,8 @@
                                         android:text="@string/rd_btn_supported"
                                         android:id="@+id/radioButton16"
                                         android:layout_column="1" />
+
+                                    </RadioGroup>
 
                                 </TableRow>
 
@@ -2717,7 +2732,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2733,7 +2748,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonSpeak_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2750,7 +2765,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2766,7 +2781,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonRead_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -2783,7 +2798,7 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
@@ -2799,7 +2814,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/rd_btn_no"
                                 android:id="@+id/radioButtonWrite_no" />
-                        </LinearLayout>
+                        </RadioGroup>
                     </TableRow>
 
                 </TableLayout>
@@ -3285,23 +3300,23 @@
                             android:layout_column="0"
                             android:textColor="@color/white" />
 
-                        <LinearLayout
+                        <RadioGroup
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent" >
 
-                            <CheckBox
+                            <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/chkbox_single"
-                                android:id="@+id/checkBoxSingle" />
+                                android:id="@+id/radioButtonSingle" />
 
-                            <CheckBox
+                            <RadioButton
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="@string/chkbox_married"
-                                android:id="@+id/checkBoxMarried" />
-                        </LinearLayout>
+                                android:id="@+id/radioButtonMarried" />
+                        </RadioGroup>
                     </TableRow>
 
                     <TableRow
@@ -3359,6 +3374,19 @@
                     </TableRow>
 
                 </TableLayout>
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/btn_logut_bg"
+                    android:text="Update"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:onClick="insert" />
             </LinearLayout>
         </ScrollView>
     </HorizontalScrollView>
